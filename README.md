@@ -10,4 +10,4 @@ We collect data form three different source:
 You can also download the dataset from : [My Huggingface](https://huggingface.co/datasets/Bin12345/HPC_Fortran_CPP)
 
 Here is one data pair example:
-(https://github.com/bin123apple/Fortran-CPP-HPC-code-translation-dataset/blob/main/Problems%20and%20solution.pdf)
+(https://github.com/bin123apple/Fortran-CPP-HPC-code-translation-dataset/blob/main/Problems%20and%20solution.png)
