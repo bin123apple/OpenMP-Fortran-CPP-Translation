@@ -16,10 +16,4 @@ Here is one data pair example:
 
 ![Here is one data pair example:](https://github.com/bin123apple/OpenMP-Fortran-CPP-Translation/blob/main/Figures/Data%20Pair%20Example.png)
 
-![Here is the translated data example by using OPT-6.7B model:](https://github.com/bin123apple/OpenMP-Fortran-CPP-Translation/blob/main/Figures/OPT_6.7.png)
-
-![Here is the translated data example by using StarCoder-15.5B model:](https://github.com/bin123apple/OpenMP-Fortran-CPP-Translation/blob/main/Figures/StarCoder.png)
-
-![Here is Human evaluation example:](https://github.com/bin123apple/OpenMP-Fortran-CPP-Translation/blob/main/Figures/Human%20evaluation.png)
-
 We will add more data pairs in the future and will add a new "nature language" column for code generation task.
