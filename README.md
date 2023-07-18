@@ -1,5 +1,7 @@
 # Fortran-CPP-HPC-code-translation-dataset
 
+Our paper is avaliable at [http://arxiv.org/abs/2307.07686](http://arxiv.org/abs/2307.07686)
+
 This repository contains training and testing dataset and a simple test script.
 
 We collect data form three different source: 
