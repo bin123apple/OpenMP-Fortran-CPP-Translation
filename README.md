@@ -20,6 +20,31 @@ Here is one data pair example:
 
 We will add more data pairs in the future and will add a new "nature language" column for code generation task.
 
+## Reproduce our result
+
+1. Finetune the model by using deepspeed
+```
+deepspeed --master_port 12345 main.py \
+   --data_path Bin12345/HPC_Fortran_CPP \
+   --model_name_or_path path/to/starcoder_model \
+   --per_device_train_batch_size 1 \
+   --per_device_eval_batch_size 1 \
+   --max_seq_len 128 \
+   --learning_rate 9.65e-6 \
+   --weight_decay 0.1 \
+   --num_train_epochs 3 \
+   --gradient_accumulation_steps 2 \
+   --lr_scheduler_type cosine \
+   --num_warmup_steps 0 \
+   --seed 1234 \
+   --zero_stage $ZERO_STAGE \
+   --deepspeed \
+   --output_dir $OUTPUT \
+   &> $OUTPUT/training.log
+```
+
+2. Use the finetuned model to generate the prompts. You can try our simple test scripts. And for different models, there might be slightly difference.
+
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
