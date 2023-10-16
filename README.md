@@ -45,8 +45,6 @@ deepspeed --master_port 12345 main.py \
 
 2. Use the finetuned model to generate the prompts. You can try our simple test scripts. And for different models, there might be slightly difference.
 
-{% include licenses/NOTICE %}
-
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
