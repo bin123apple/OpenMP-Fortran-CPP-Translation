@@ -22,6 +22,8 @@ We will add more data pairs in the future and will add a new "nature language" c
 
 ## Reproduce our result
 
+It mainly contains of two steps, for the detailed description, please check  ![This repo]([https://github.com/bin123apple/OpenMP-Fortran-CPP-Translation/blob/main/Figures/Data%20Pair%20Example.png](https://github.com/bin123apple/HPC-Code-translation-and-generation)). The brief description is shown below
+
 1. Finetune the model by using deepspeed
 ```
 deepspeed --master_port 12345 main.py \
