@@ -22,9 +22,11 @@ We will add more data pairs in the future and will add a new "nature language" c
 
 ## Reproduce our result
 
-Google Colab 
+Google Colab has detailed steps. 
 
 https://colab.research.google.com/drive/1QqkGskaPPUKvjzwn_dmaV9z3yB9z2Vyu
+
+Overview of steps are explained below. 
 
 It mainly contains of two steps, for the detailed description, please check [this Colab](https://drive.google.com/file/d/1QqkGskaPPUKvjzwn_dmaV9z3yB9z2Vyu/view?usp=sharing). The brief description is shown below
 
