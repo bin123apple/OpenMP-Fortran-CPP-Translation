@@ -22,7 +22,7 @@ We will add more data pairs in the future and will add a new "nature language" c
 
 ## Reproduce our result
 
-It mainly contains of two steps, for the detailed description, please check [this repo](https://github.com/bin123apple/HPC-Code-translation-and-generation). The brief description is shown below
+It mainly contains of two steps, for the detailed description, please check [this Colab]([https://github.com/bin123apple/HPC-Code-translation-and-generation](https://drive.google.com/file/d/1QqkGskaPPUKvjzwn_dmaV9z3yB9z2Vyu/view?usp=sharing)). The brief description is shown below
 
 1. Finetune the model by using deepspeed
 ```
